@@ -1,0 +1,48 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.bugster.dev/commands/overview
+name: Bugster CLI
+binary: bugster
+description: >-
+  Command-line interface for Bugster's autonomous QA agent. Generates, runs, and
+  maintains AI-powered end-to-end browser tests directly from a project's codebase,
+  and reports results in pull requests.
+docs: https://docs.bugster.dev/commands/overview
+repository: https://github.com/Bugsterapp/bugster-cli
+install:
+- method: homebrew
+  command: brew install Bugsterapp/homebrew-tap/bugster
+- method: npm
+  command: npm install -g @bugster/bugster-cli
+- method: script-unix
+  command: curl -sSL https://bugster.dev/install.sh | bash
+- method: script-windows
+  command: irm https://bugster.dev/install.ps1 | iex
+auth:
+  style: api-key
+  flow: >-
+    Run `bugster auth` to configure the Bugster API key, then `bugster init` to
+    set up the CLI in the project and connect it to your account.
+commands:
+- name: auth
+  summary: Configure and manage your Bugster API key for CLI authentication.
+- name: init
+  summary: Set up Bugster CLI in your project and authenticate with your account.
+- name: generate
+  summary: Generate AI-powered tests from your codebase (supports --prompt for natural-language tests).
+- name: run
+  summary: Execute your test specifications with browser automation (supports --prompt and --quick).
+- name: update
+  summary: Keep your tests synchronized with code changes.
+- name: destructive
+  summary: Run AI-powered destructive agents to find potential bugs in changed pages (supports --output).
+- name: shell
+  summary: Interactive CLI session with smart autocomplete and instant testing.
+- name: plugin
+  summary: Install Bugster rules for AI coding agents (Claude Code, Cursor) to generate tests in the editor.
+key_flows:
+- Set up a project - bugster auth then bugster init
+- Generate a suite from the codebase - bugster generate
+- Run tests with browser automation - bugster run
+- Keep tests in sync as the app changes - bugster update
+- Find bugs proactively - bugster destructive

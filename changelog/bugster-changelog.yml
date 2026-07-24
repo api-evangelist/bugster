@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.bugster.dev/changelog
+scheme: semver
+scope: Bugster CLI
+current_version: 0.5.0
+url: https://docs.bugster.dev/changelog
+entries:
+- version: 0.5.0
+  breaking: false
+  additions:
+  - Added `bugster generate --prompt` to generate tests directly from natural-language prompts without needing existing spec files.
+  highlights: Natural-language test generation from a prompt.
+- version: 0.4.13
+  breaking: false
+  additions:
+  - Added optional `credential_id` field to the Test model.
+  - Added `--quick` option to the prompt parameter in the `run` command.
+  changes:
+  - Changed default maximum concurrent tests from 5 to 3.
+  highlights: Credential binding on tests and quick prompt runs.
+- version: 0.4.12
+  breaking: false
+  additions:
+  - Added `bugster destructive --output` option to write JSON file results.
+  - Added `bugster run --prompt` for on-the-fly tests.
+  - Added a PowerShell installer for Windows.
+  changes:
+  - Removed legacy CI workflow configuration.
+  highlights: Destructive JSON output, ad-hoc run prompts, and Windows installer.
+note: >-
+  The live changelog at https://docs.bugster.dev/changelog is the source of truth
+  and tracks releases from v0.1.0 forward; only the recent window is captured here.

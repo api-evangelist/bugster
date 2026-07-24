@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://bugster.dev/security
+url: https://bugster.dev/security
+certifications:
+- SOC 2
+- ISO 27001
+- GDPR
+note: >-
+  Per bugster.dev/security, SOC 2 Type II and ISO 27001 are held by Bugster's
+  underlying infrastructure providers (AWS and GCP), not by Bugster itself.
+  Bugster is not yet SOC 2 certified; a SOC 2 readiness assessment is planned
+  for 2026. Data processing is described as GDPR-aligned (customer deletion
+  rights and retention policies). No Compliance pointer is emitted because
+  Bugster publishes no first-party certification.
+evidence:
+- source: https://bugster.dev/security
+  keywords:
+  - soc 2
+  - iso 27001
+  - gdpr

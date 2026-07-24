@@ -1,25 +1,100 @@
 aid: bugster
 name: Bugster
-description: Bugster is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bugster is an AI-powered end-to-end testing and QA automation platform for web
+  applications. It provides an autonomous QA agent that simulates a real user in
+  a real browser, clicking, typing, and navigating to validate critical flows,
+  then reports what is broken directly in your pull request. Developers describe
+  test scenarios in plain English and Bugster generates, runs, and self-heals the
+  test suite, eliminating flaky, hand-maintained scripts. The product is delivered
+  primarily through the Bugster CLI (auth, init, generate, run, update, destructive,
+  and interactive shell commands) plus a web app, GitHub App, and CI/CD integrations
+  for Vercel, Netlify, Railway, and Google Cloud Build. It also ships a destructive
+  testing agent that actively tries to break changed pages to surface bugs before
+  release. Bugster is a portfolio company of 500 Global and targets developers at
+  VC-backed startups who want to ship with confidence.
 url: https://raw.githubusercontent.com/api-evangelist/bugster/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.bugster.dev/images/og/bugster-og.png
 tags:
 - Company
-apis: []
+- Testing
+- QA
+- Test Automation
+- End-to-End Testing
+- Developer Tools
+- CLI
+- Artificial Intelligence
+- Browser Automation
+- CI/CD
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
+- type: TrustCenter
+  url: security/bugster-trust-center.yml
 - type: Website
   url: https://bugster.dev
+- type: DeveloperPortal
+  url: https://docs.bugster.dev
+- type: Documentation
+  url: https://docs.bugster.dev
+- type: GettingStarted
+  url: https://docs.bugster.dev/quickstart
+- type: Blog
+  url: https://newsletter.bugster.dev
+- type: Pricing
+  url: https://bugster.dev/#pricing
+- type: SignUp
+  url: https://app.bugster.dev/auth/sign-up
+- type: Login
+  url: https://app.bugster.dev/auth/sign-in
+- type: Support
+  url: https://discord.com/invite/fQtsfDmwNA
+- type: TermsOfService
+  url: https://bugster.dev/terms-of-service
+- type: PrivacyPolicy
+  url: https://bugster.dev/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/Bugsterapp
+- type: ChangeLog
+  url: https://docs.bugster.dev/changelog
+- type: LLMsTxt
+  url: llms/bugster-llms.txt
+- type: Packages
+  url: packages/bugster-packages.yml
+- type: SDKs
+  url: packages/bugster-packages.yml
+- type: CLI
+  url: cli/bugster-cli.yml
+- type: ChangeLog
+  url: changelog/bugster-changelog.yml
+- type: DomainSecurity
+  url: security/bugster-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

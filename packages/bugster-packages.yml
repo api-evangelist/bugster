@@ -1,0 +1,42 @@
+generated: '2026-07-18'
+method: searched
+source: PyPI, npm, Homebrew tap, and https://docs.bugster.dev/installation
+packages:
+- language: javascript
+  registry: npm
+  name: "@bugster/bugster-cli"
+  url: https://www.npmjs.com/package/@bugster/bugster-cli
+  install: npm install -g @bugster/bugster-cli
+  version: 0.7.5
+  description: Bugster CLI - command-line tool for AI-powered end-to-end testing
+  official: true
+- language: python
+  registry: pypi
+  name: bugster
+  url: https://pypi.org/project/bugster/
+  install: pip install bugster
+  version: 1.0.1
+  description: Python-Playwright based testing framework for Bugster's e2e testing agent
+  repository: https://github.com/Bugsterapp/bugster-framework
+  official: true
+- language: shell
+  registry: homebrew
+  name: bugster
+  url: https://github.com/Bugsterapp/homebrew-tap
+  install: brew install Bugsterapp/homebrew-tap/bugster
+  description: Bugster CLI via Homebrew tap (macOS/Linux)
+  official: true
+- language: shell
+  registry: script
+  name: install.sh
+  url: https://bugster.dev/install.sh
+  install: curl -sSL https://bugster.dev/install.sh | bash
+  description: Bugster CLI install script (Linux/macOS)
+  official: true
+- language: powershell
+  registry: script
+  name: install.ps1
+  url: https://bugster.dev/install.ps1
+  install: irm https://bugster.dev/install.ps1 | iex
+  description: Bugster CLI install script (Windows PowerShell)
+  official: true

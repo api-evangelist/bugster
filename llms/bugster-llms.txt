@@ -1,0 +1,48 @@
+# Bugster
+
+> Bugster is an AI tester that simulates a real user in a real browser, providing insights directly in your PR. It's designed for developers at VC-backed startups who want to ship with confidence without writing or maintaining flaky test suites.
+
+## Docs
+
+- [Changelog](https://docs.bugster.dev/changelog.md): All notable changes to Bugster CLI
+- [Auth](https://docs.bugster.dev/commands/auth.md): Configure and manage your Bugster API key for CLI authentication
+- [Destructive](https://docs.bugster.dev/commands/destructive-agent.md): Run AI-powered destructive agents to find potential bugs in your changed pages
+- [Generate](https://docs.bugster.dev/commands/generate.md): Generate AI-powered tests from your codebase with bugster generate
+- [Init](https://docs.bugster.dev/commands/init.md): Set up Bugster CLI in your project and authenticate with your account
+- [Shell](https://docs.bugster.dev/commands/interactive-mode.md): Interactive CLI session with smart autocomplete and instant testing
+- [Overview](https://docs.bugster.dev/commands/overview.md): Complete overview of Bugster CLI commands and capabilities
+- [Plugin](https://docs.bugster.dev/commands/plugin.md): Install Bugster rules for AI coding agents to generate tests in your editor
+- [Run](https://docs.bugster.dev/commands/run.md): Execute your test specifications with browser automation
+- [Update](https://docs.bugster.dev/commands/update.md): Keep your tests synchronized with code changes using bugster update
+- [Framework Compatibility](https://docs.bugster.dev/framework-compatibility.md): Detailed framework and routing support information for Bugster CLI
+- [CI/CD Integration](https://docs.bugster.dev/guides/cicd/cicd-integration.md): Integrate Bugster into your CI/CD pipeline to automatically run tests on pull requests
+- [Integrate with Claude Code](https://docs.bugster.dev/guides/coding-agents/claude-code.md): Configure Claude Code to be your Bugster test generation assistant
+- [Integrate with Cursor](https://docs.bugster.dev/guides/coding-agents/cursor.md): Configure Cursor to be your Bugster test generation assistant
+- [Advanced Configuration](https://docs.bugster.dev/guides/configuration/customize-config-yaml.md): Change your config.yaml to customize project settings and test execution preferences
+- [Destructive Agent Testing](https://docs.bugster.dev/guides/destructive-testing.md): Use AI agents to break your application and find bugs in changed pages
+- [Integrate Hooks](https://docs.bugster.dev/guides/hooks/integrate-hooks.md): Run setup and cleanup code before and after your tests
+- [Local Development Workflow](https://docs.bugster.dev/guides/local-development.md): Best practices for running Bugster during development to validate features and catch issues early
+- [Add credentials, roles & permissions](https://docs.bugster.dev/guides/test-management/credentials-and-roles.md): Configure authentication profiles for different user roles in your tests using environment variables and secure credential management.
+- [File Upload Testing](https://docs.bugster.dev/guides/test-management/file-upload.md): Learn how Bugster can upload any type of file to your application during test execution with a simple workflow.
+- [Generating and managing tests](https://docs.bugster.dev/guides/test-management/manage-tests.md): How to create, modify, and remove tests in Bugster.
+- [OTP authentication](https://docs.bugster.dev/guides/test-management/otp-authentication.md): Configure one-time password (OTP) authentication for Bugster to test apps with email-based login codes.
+- [Persist login sessions across tests](https://docs.bugster.dev/guides/test-management/session-persistence.md): Configure tests to share authenticated sessions, eliminating redundant logins and speeding up your test suite.
+- [How to update your tests](https://docs.bugster.dev/guides/test-management/update-test-suite.md): Sync your suite with product changes by creating, modifying, and removing tests via `bugster update`.
+- [Platform Workflow & Migration](https://docs.bugster.dev/guides/workflow/platform-workflow.md): Understand how the Bugster platform works end-to-end. Create tests from the CLI or the web app, organize them into suites, and run them across environments.
+- [MVP Roadmap with Bugster](https://docs.bugster.dev/guides/your-qa-roadmap.md): Get your first E2E test suite running in under a week. Critical flows tested, running locally, ready for CI.
+- [Introduction](https://docs.bugster.dev/index.md): The autonomous QA agent that tells you what is broken
+- [Installation](https://docs.bugster.dev/installation.md): Install Bugster CLI and start AI-powered end-to-end testing
+- [GCP Cloud Build](https://docs.bugster.dev/integrations/cloud-build.md): Integrate Bugster with Google Cloud Build using custom webhooks
+- [Custom Integration](https://docs.bugster.dev/integrations/custom.md): Integrate Bugster with any deployment platform using our webhook API
+- [GitHub](https://docs.bugster.dev/integrations/github.md): Automatically run tests on deployments with GitHub App integration
+- [GitHub Actions](https://docs.bugster.dev/integrations/github-actions.md): Integrate Bugster with GitHub Actions using our official action
+- [Netlify](https://docs.bugster.dev/integrations/netlify.md): Automatically run tests on deployments with GitHub App integration
+- [Railway](https://docs.bugster.dev/integrations/railway.md): Automatic integration when you connect your GitHub repository
+- [Slack](https://docs.bugster.dev/integrations/slack.md): Send notifications, alerts, and updates to Slack channels
+- [Vercel](https://docs.bugster.dev/integrations/vercel.md): Automated testing on Vercel preview deployments with Bugster
+- [Quickstart](https://docs.bugster.dev/quickstart.md): Get started with Bugster in 4 simple steps
+
+## Optional
+
+- [Community](https://discord.gg/fQtsfDmwNA)
+- [Blog](https://newsletter.bugster.dev)
