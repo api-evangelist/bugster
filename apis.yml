@@ -68,6 +68,8 @@ maintainers:
   email: info@apis.io
 apis: []
 common:
+- type: Plans
+  url: plans/bugster-plans-pricing.yml
 - url: https://bugster.dev/blog
   type: Blog
 - type: TrustCenter
