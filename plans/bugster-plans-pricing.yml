@@ -36,3 +36,24 @@ rate_limit_statements:
 - 70 E2E test runs/month
 - Max 5 E2E tests per PR
 - Up to 3 tests in parallel
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units: []
+  plans:
+  - name: Starter
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Team
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
